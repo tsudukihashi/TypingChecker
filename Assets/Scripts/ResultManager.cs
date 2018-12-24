@@ -48,7 +48,7 @@ public class ResultManager : MonoBehaviour {
         float per = wariai * 100.0f;
         
         float time = GameManager.m_instance.timer;
-        float persec = time / 26.0f;
+        float persec = 26.0f / time;
 
         timePerSecText.text = persec.ToString("F2") + "文字/秒";
         
